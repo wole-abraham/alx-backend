@@ -22,4 +22,4 @@ class FIFOCache(BaseCaching):
 
     def get(self, key):
         """ return value of the key if exists  """
-        return self.cache_data.ge(key)
+        return self.cache_data.get(key)
