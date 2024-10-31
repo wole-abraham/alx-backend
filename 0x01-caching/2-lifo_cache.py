@@ -24,4 +24,4 @@ class LIFOCache(BaseCaching):
 
     def get(self, key):
         """ get value of key if exist """
-        self.cache_data.get(key)
+        return self.cache_data.get(key)
