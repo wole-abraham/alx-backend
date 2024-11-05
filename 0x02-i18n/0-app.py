@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Flask app """
+""" basic flask application 0x02-i18n """
 from flask import Flask, render_template
 from typing import Text
 
