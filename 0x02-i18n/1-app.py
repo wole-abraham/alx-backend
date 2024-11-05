@@ -7,7 +7,7 @@ from flask_babel import Babel
 app = Flask(__name__)
 
 
-class Config():
+class Config:
     """ Configuration for babel  """
     LANGUAGES = ["en", "fr"]
     BABEL_DEFAULT_LOCALE = 'en'
@@ -15,7 +15,7 @@ class Config():
 
 
 app.config.from_object(Config)
-babel = Babel(app)
+babel = Babel(app, )
 
 
 @app.route("/")
